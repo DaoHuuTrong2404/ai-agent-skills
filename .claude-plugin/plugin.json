@@ -1,0 +1,13 @@
+{
+  "name": "ai-agent-skills",
+  "description": "86 Production-Ready Skills for AI Coding Agents (AI Engineering, Marketing & Video Production, Superpowers Engineering Workflows) curated by Dao Huu Trong.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dao Huu Trong",
+    "url": "https://github.com/DaoHuuTrong2404"
+  },
+  "homepage": "https://github.com/DaoHuuTrong2404/ai-agent-skills",
+  "repository": "https://github.com/DaoHuuTrong2404/ai-agent-skills",
+  "license": "MIT",
+  "skills": "./skills/"
+}
