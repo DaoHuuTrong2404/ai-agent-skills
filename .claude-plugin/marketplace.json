@@ -8,9 +8,9 @@
     {
       "name": "ai-agent-skills",
       "source": "./",
-      "description": "Full 86-skill suite: 18 AI Engineering + 53 Marketing & Video + 15 Superpowers workflows.",
-      "version": "1.0.0",
-      "license": "MIT"
+      "description": "Full 87-skill suite: 18 AI Engineering + 53 Marketing & Video + 15 Superpowers + rea-video.",
+      "version": "1.1.0",
+      "license": "MIT AND Apache-2.0"
     }
   ]
 }

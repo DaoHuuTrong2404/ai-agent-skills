@@ -1,9 +1,10 @@
 param(
     [ValidateSet("claude", "antigravity", "codex", "cursor", "all")]
     [string]$Target = "claude",
-    [ValidateSet("all", "ai-engineering", "marketing", "superpowers")]
+    [ValidateSet("all", "ai-engineering", "marketing", "superpowers", "video-forensics")]
     [string]$Category = "all",
-    [string]$Skill = ""
+    [string]$Skill = "",
+    [switch]$WithReaCli
 )
 
 $ErrorActionPreference = "Stop"
@@ -38,4 +39,9 @@ foreach ($DestRoot in $DestList) {
         $Count++
     }
     Write-Host "[OK] Installed $Count skill(s) -> $DestRoot" -ForegroundColor Green
+}
+
+if ($WithReaCli) {
+    Write-Host "[CLI] Installing rea-video Python CLI from DaoHuuTrong2404/rea-video..." -ForegroundColor Cyan
+    python -m pip install "rea-video[ocr] @ git+https://github.com/DaoHuuTrong2404/rea-video"
 }

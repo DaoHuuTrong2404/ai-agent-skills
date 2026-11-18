@@ -2,13 +2,12 @@
 set -euo pipefail
 
 TARGET="${1:-claude}"      # claude | antigravity | codex | cursor | all
-CATEGORY="${2:-all}"       # all | ai-engineering | marketing | superpowers
+CATEGORY="${2:-all}"       # all | ai-engineering | marketing | superpowers | video-forensics
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 install_to_dir() {
   local dest="$1"
   mkdir -p "$dest"
-  local count=0
   python3 - "$REPO_ROOT" "$dest" "$CATEGORY" <<'PY'
 import json, shutil, sys
 from pathlib import Path
@@ -37,7 +36,7 @@ case "$TARGET" in
     install_to_dir "$HOME/.cursor/skills"
     ;;
   *)
-    echo "Usage: ./install.sh [claude|antigravity|codex|cursor|all] [all|ai-engineering|marketing|superpowers]"
+    echo "Usage: ./install.sh [claude|antigravity|codex|cursor|all] [all|ai-engineering|marketing|superpowers|video-forensics]"
     exit 1
     ;;
 esac

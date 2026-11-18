@@ -2,159 +2,16 @@
   "name": "ai-agent-skills",
   "owner": "DaoHuuTrong2404",
   "author": "Dao Huu Trong",
-  "version": "1.0.0",
-  "license": "MIT",
-  "total_skills": 86,
+  "version": "1.1.0",
+  "license": "MIT (86 skills) + Apache-2.0 (rea-video)",
+  "total_skills": 87,
   "categories": {
     "ai-engineering": 18,
     "marketing": 53,
-    "superpowers": 15
+    "superpowers": 15,
+    "video-forensics": 1
   },
   "skills": [
-    {
-      "name": "blueprint-figure",
-      "category": "ai-engineering",
-      "path": "skills/blueprint-figure",
-      "skill_md": "skills/blueprint-figure/SKILL.md",
-      "files_count": 5,
-      "description": "Draws static SVG figures for lessons, READMEs and manuals in the AI Engineering from Scratch look: paper panel, blueprint accent, nine figure kinds, fixed hue meanings, eight arrow styles, and checks for legibility and markup. Trigger phrases: \"draw a figure\", \"blueprint figure\", \"sequence figure\", \"state machine figure\", \"figure for this lesson\", \"add a diagram to the manual\"."
-    },
-    {
-      "name": "build-project",
-      "category": "ai-engineering",
-      "path": "skills/build-project",
-      "skill_md": "skills/build-project/SKILL.md",
-      "files_count": 1,
-      "description": "Hands-on project tutor for the AI Engineering from Scratch Projects section. Guides a learner through one stage of a real project per session: read the stage lesson, predict, write the code, run the stage grader, reflect, and record progress in PROJECTS-LEARNING.md. Gives hints, never full solutions. Trigger phrases: \"build a project\", \"next project stage\", \"continue my project\", \"start the research report agent\"."
-    },
-    {
-      "name": "check-understanding",
-      "category": "ai-engineering",
-      "path": "skills/check-understanding",
-      "skill_md": "skills/check-understanding/SKILL.md",
-      "files_count": 1,
-      "description": "Phase quiz for AI Engineering from Scratch. Trigger with \"quiz me\", \"test phase\", \"check my understanding\", \"do I know phase 3\", or `/check-understanding <phase>`."
-    },
-    {
-      "name": "claude-certification",
-      "category": "ai-engineering",
-      "path": "skills/claude-certification",
-      "skill_md": "skills/claude-certification/SKILL.md",
-      "files_count": 2,
-      "description": "AI-native tutor and onboarding workflow for the four independent Claude certification tracks in AI Engineering from Scratch. Use when a learner wants to choose a Claude certification, prepare for CCAO-F, CCDV-F, CCAR-F, or CCAR-P, resume a certification path, learn the next lesson interactively, run and verify practical labs, build scored artifacts, take a diagnostic or mock exam, or remediate weak exam domains from GitHub with Claude Code, Codex, ChatGPT, Cursor, or another agent."
-    },
-    {
-      "name": "course-guide",
-      "category": "ai-engineering",
-      "path": "skills/course-guide",
-      "skill_md": "skills/course-guide/SKILL.md",
-      "files_count": 1,
-      "description": "Topic router for the AI Engineering from Scratch curriculum. Give it a topic, a question, or a bug you are fighting, and it points at the exact lessons that teach it, plus the right next command. Trigger phrases: \"where do I learn\", \"which lesson covers\", \"course guide\", \"I'm stuck on\", \"what should I do next\", \"teach me MCP\", \"teach me Agent Skills\", \"where do I prepare for a Claude certification"
-    },
-    {
-      "name": "course-style",
-      "category": "ai-engineering",
-      "path": "skills/course-style",
-      "skill_md": "skills/course-style/SKILL.md",
-      "files_count": 6,
-      "description": "The shared visual and writing reference for AI Engineering from Scratch pages, figures, and manuals. Use it for light and dark colour tokens, font stacks, FIG_ label formats, and card layout. Use it for the plain technical English rules and the accessibility and reduced motion defaults. Trigger phrases: \"course style\", \"blueprint palette\", \"course tokens\", \"FIG label\", \"plain technical English\", \"check my prose\", \"course fonts\", \"dark mode tokens"
-    },
-    {
-      "name": "find-your-level",
-      "category": "ai-engineering",
-      "path": "skills/find-your-level",
-      "skill_md": "skills/find-your-level/SKILL.md",
-      "files_count": 2,
-      "description": "Interactive quiz that maps your AI/ML knowledge to a starting point in the 542-lesson, 20-phase AI Engineering from Scratch curriculum. Trigger phrases: \"where should I start\", \"find my level\", \"what do I know\", \"which phase\", \"assess my knowledge\", \"placement test\", \"skip ahead"
-    },
-    {
-      "name": "interview-prep",
-      "category": "ai-engineering",
-      "path": "skills/interview-prep",
-      "skill_md": "skills/interview-prep/SKILL.md",
-      "files_count": 8,
-      "description": "Mock interview coach for AI engineering roles, built on the interview bank of AI Engineering from Scratch. Asks one question or one incident scenario, stops, and waits for the learner's own answer. Then it grades the answer against the bank, asks follow-ups one at a time, sends each gap to the lessons and manual sections that teach it, and keeps an append-only record in INTERVIEW-LEARNING.md. Trigger phrases: \"interview prep\", \"mock interview\", \"ask me an interview question\", \"practise for my AI engineering interview\", \"run an incident scenario\", \"debugging round\", \"system design round\", \"inference engineer loop\", \"review my interview gaps\", \"how ready am I for the interview"
-    },
-    {
-      "name": "isometric-explainer",
-      "category": "ai-engineering",
-      "path": "skills/isometric-explainer",
-      "skill_md": "skills/isometric-explainer/SKILL.md",
-      "files_count": 16,
-      "description": "Builds an interactive isometric machine page. Each station of one invented machine stands for one step of a process. A pure, tested state model drives the motion, the readouts and the copy. The page has controls and a verification loop. Trigger phrases: \"isometric explainer\", \"machine explainer\", \"explain this as a machine\", \"interactive isometric figure\", \"explorable explainer\", \"show how it works inside\"."
-    },
-    {
-      "name": "learn",
-      "category": "ai-engineering",
-      "path": "skills/learn",
-      "skill_md": "skills/learn/SKILL.md",
-      "files_count": 1,
-      "description": "Interactive lesson tutor for the AI Engineering from Scratch curriculum. Reads LEARNING.md, fetches the next lesson, teaches it section by section in the terminal, quizzes at the end, and records progress. Works cloned or entirely over raw.githubusercontent.com — no setup required. Trigger phrases: \"next lesson\", \"teach me\", \"continue the course\", \"let's learn\", \"resume learning"
-    },
-    {
-      "name": "learn-agent-skills",
-      "category": "ai-engineering",
-      "path": "skills/learn-agent-skills",
-      "skill_md": "skills/learn-agent-skills/SKILL.md",
-      "files_count": 1,
-      "description": "Focused interactive tutor for the Agent Skills Engineering path in AI Engineering from Scratch. Start or resume this route when a learner wants to create, discover, invoke, secure, evaluate, package, or port Agent Skills. Teaches one lesson per invocation and records evidence in AGENT-SKILLS-LEARNING.md."
-    },
-    {
-      "name": "learn-mcp",
-      "category": "ai-engineering",
-      "path": "skills/learn-mcp",
-      "skill_md": "skills/learn-mcp/SKILL.md",
-      "files_count": 1,
-      "description": "Focused interactive tutor for the Model Context Protocol (MCP) path in AI Engineering from Scratch. Start or resume this route when a learner wants to build, secure, debug, verify, or operate MCP clients, servers, transports, gateways, registries, or conformance gates. Teaches one lesson per invocation and records wire evidence in MCP-LEARNING.md."
-    },
-    {
-      "name": "learn-reverse-engineering",
-      "category": "ai-engineering",
-      "path": "skills/learn-reverse-engineering",
-      "skill_md": "skills/learn-reverse-engineering/SKILL.md",
-      "files_count": 1,
-      "description": "Focused interactive tutor for the Reverse Engineering path in AI Engineering from Scratch. Start or resume this route when a learner wants to read a compiled program: file formats, disassembly, control flow, lifting, evidence, proof, calling conventions, compiler idioms, linking, types, debugging, bytecode, diffing, symbolic execution, and AI-assisted analysis. Teaches one lesson per invocation and records evidence in REVERSE-ENGINEERING-LEARNING.md."
-    },
-    {
-      "name": "lesson-screen",
-      "category": "ai-engineering",
-      "path": "skills/lesson-screen",
-      "skill_md": "skills/lesson-screen/SKILL.md",
-      "files_count": 10,
-      "description": "Opens a lesson screen in the browser next to the terminal while a course tutor teaches. It shows the lesson's registered figures, code traces with real values, and clickable predictions. It also builds a figure for the lesson on the fly with the course figure skills and any figure skill the host has installed: a blueprint, a mechanism, an isometric machine, or a 3D model. Clicks return to the tutor as events. Trigger phrases: \"open the lesson screen\", \"show me this visually\", \"show this in 3D\", \"draw the architecture\", \"visualize this lesson\", \"build a figure for this lesson\", \"lesson screen\"."
-    },
-    {
-      "name": "mcpa-certification",
-      "category": "ai-engineering",
-      "path": "skills/mcpa-certification",
-      "skill_md": "skills/mcpa-certification/SKILL.md",
-      "files_count": 2,
-      "description": "AI-native tutor and onboarding workflow for the MCPA (Model Context Protocol Associate) certification in AI Engineering from Scratch. Use when a learner wants to prepare for the MCPA, resume their certification path, learn the next lesson interactively, run and verify practical labs, take the diagnostic or a full mock, or remediate weak exam domains from GitHub with Claude Code, Codex, ChatGPT, Cursor, or another agent."
-    },
-    {
-      "name": "motion-figure",
-      "category": "ai-engineering",
-      "path": "skills/motion-figure",
-      "skill_md": "skills/motion-figure/SKILL.md",
-      "files_count": 8,
-      "description": "Builds figures that move or respond to the reader, in three tiers: SMIL animations and slider widgets inside lessons, interactive mechanism figures that show the named parts of a real system with a computed verdict, and ordered dither bands in the course palette. Triggers: \"animated figure\", \"add a slider widget\", \"interactive figure\", \"show how this system works\", \"make this diagram move\", \"dither masthead\", \"mechanism figure\", \"figure fence\"."
-    },
-    {
-      "name": "start-learning",
-      "category": "ai-engineering",
-      "path": "skills/start-learning",
-      "skill_md": "skills/start-learning/SKILL.md",
-      "files_count": 1,
-      "description": "One-time onboarding for the AI Engineering from Scratch curriculum (542 lessons, 20 phases). Interviews the learner, runs the placement quiz, and writes LEARNING.md, a persistent study plan the learn skill drives. Trigger phrases: \"start learning\", \"set up the course\", \"begin the curriculum\", \"onboard me\", \"create my learning plan"
-    },
-    {
-      "name": "write-manual",
-      "category": "ai-engineering",
-      "path": "skills/write-manual",
-      "skill_md": "skills/write-manual/SKILL.md",
-      "files_count": 7,
-      "description": "Writes a long technical manual that explains one subject at one pinned version, from its purpose to each request and response. Every listing comes from an offline capture, every claim traces to a ranked source, and an audit must report TOTAL 0. Use it for \"write a manual\", \"write a 101 manual for <subject>\", \"manual.json\", \"add a manual section\", \"build a capture kit\", \"audit the manual\", or \"pin a spec version and document it\"."
-    },
     {
       "name": "ab-testing",
       "category": "marketing",
@@ -212,12 +69,52 @@
       "description": "When the user wants to figure out which marketing actually drives conversions and revenue, choose or interpret an attribution model, or reconcile conflicting numbers across tools. Also use when the user mentions \"attribution,\" \"attribution model,\" \"first-touch vs last-touch,\" \"multi-touch,\" \"which channel drives revenue,\" \"what's my real CAC,\" \"my dashboards disagree,\" \"Google/Meta says X but GA says Y,\" \"media mix model,\" \"MMM,\" \"incrementality,\" \"geo lift,\" \"holdout test,\" \"how did you hear about us,\" \"self-reported attribution,\" \"dark social,\" or wants to instrument attribution themselves — \"stitch my bookings to their source,\" \"SavvyCal/Calendly attribution,\" \"close the identify gap,\" \"track conversions on a third-party domain,\" \"first-party / self-hosted attribution.\" For event tracking setup and UTMs, see analytics. For ad-platform pixels/CAPI and conversion tracking, see conversion-tracking. For pipeline and CRM revenue reporting, see revops. For the AI-search attribution blind spot, see ai-seo."
     },
     {
+      "name": "blueprint-figure",
+      "category": "ai-engineering",
+      "path": "skills/blueprint-figure",
+      "skill_md": "skills/blueprint-figure/SKILL.md",
+      "files_count": 5,
+      "description": "Draws static SVG figures for lessons, READMEs and manuals in the AI Engineering from Scratch look: paper panel, blueprint accent, nine figure kinds, fixed hue meanings, eight arrow styles, and checks for legibility and markup. Trigger phrases: \"draw a figure\", \"blueprint figure\", \"sequence figure\", \"state machine figure\", \"figure for this lesson\", \"add a diagram to the manual\"."
+    },
+    {
+      "name": "brainstorming",
+      "category": "superpowers",
+      "path": "skills/brainstorming",
+      "skill_md": "skills/brainstorming/SKILL.md",
+      "files_count": 8,
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation)."
+    },
+    {
+      "name": "build-project",
+      "category": "ai-engineering",
+      "path": "skills/build-project",
+      "skill_md": "skills/build-project/SKILL.md",
+      "files_count": 1,
+      "description": "Hands-on project tutor for the AI Engineering from Scratch Projects section. Guides a learner through one stage of a real project per session: read the stage lesson, predict, write the code, run the stage grader, reflect, and record progress in PROJECTS-LEARNING.md. Gives hints, never full solutions. Trigger phrases: \"build a project\", \"next project stage\", \"continue my project\", \"start the research report agent\"."
+    },
+    {
+      "name": "check-understanding",
+      "category": "ai-engineering",
+      "path": "skills/check-understanding",
+      "skill_md": "skills/check-understanding/SKILL.md",
+      "files_count": 1,
+      "description": "Phase quiz for AI Engineering from Scratch. Trigger with \"quiz me\", \"test phase\", \"check my understanding\", \"do I know phase 3\", or `/check-understanding <phase>`."
+    },
+    {
       "name": "churn-prevention",
       "category": "marketing",
       "path": "skills/churn-prevention",
       "skill_md": "skills/churn-prevention/SKILL.md",
       "files_count": 4,
       "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails. For in-app upgrade paywalls, see paywalls."
+    },
+    {
+      "name": "claude-certification",
+      "category": "ai-engineering",
+      "path": "skills/claude-certification",
+      "skill_md": "skills/claude-certification/SKILL.md",
+      "files_count": 2,
+      "description": "AI-native tutor and onboarding workflow for the four independent Claude certification tracks in AI Engineering from Scratch. Use when a learner wants to choose a Claude certification, prepare for CCAO-F, CCDV-F, CCAR-F, or CCAR-P, resume a certification path, learn the next lesson interactively, run and verify practical labs, build scored artifacts, take a diagnostic or mock exam, or remediate weak exam domains from GitHub with Claude Code, Codex, ChatGPT, Cursor, or another agent."
     },
     {
       "name": "co-marketing",
@@ -292,6 +189,22 @@
       "description": "When the user wants to write, rewrite, or improve marketing copy for any page, including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"hero section copy,\" \"this copy is weak,\" \"this sounds like AI,\" \"AI slop,\" \"make it sound human,\" or \"help me describe my product.\" Drafts never use AI tells like \"it's not X, it's Y\" reveals, \"no X, no Y, no Z\" lists, or sentences that trail into extra comma clauses. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing. For the offer underneath the copy (bonuses, guarantees, value framing), see offers. Claims must be supportable, and a declined claim names the evidence that would unlock it. Diagnoses the input first (blank brief, real voice, or point edit) and changes only what it calls for."
     },
     {
+      "name": "course-guide",
+      "category": "ai-engineering",
+      "path": "skills/course-guide",
+      "skill_md": "skills/course-guide/SKILL.md",
+      "files_count": 1,
+      "description": "Topic router for the AI Engineering from Scratch curriculum. Give it a topic, a question, or a bug you are fighting, and it points at the exact lessons that teach it, plus the right next command. Trigger phrases: \"where do I learn\", \"which lesson covers\", \"course guide\", \"I'm stuck on\", \"what should I do next\", \"teach me MCP\", \"teach me Agent Skills\", \"where do I prepare for a Claude certification"
+    },
+    {
+      "name": "course-style",
+      "category": "ai-engineering",
+      "path": "skills/course-style",
+      "skill_md": "skills/course-style/SKILL.md",
+      "files_count": 6,
+      "description": "The shared visual and writing reference for AI Engineering from Scratch pages, figures, and manuals. Use it for light and dark colour tokens, font stacks, FIG_ label formats, and card layout. Use it for the plain technical English rules and the accessibility and reduced motion defaults. Trigger phrases: \"course style\", \"blueprint palette\", \"course tokens\", \"FIG label\", \"plain technical English\", \"check my prose\", \"course fonts\", \"dark mode tokens"
+    },
+    {
       "name": "cro",
       "category": "marketing",
       "path": "skills/cro",
@@ -308,12 +221,28 @@
       "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" \"PMF survey,\" \"product/market fit survey,\" \"customer interview questions,\" \"interview outreach,\" \"Sales Safari,\" or \"find out why customers churn/convert/buy.\" Use for analyzing existing research assets, mining online sources, AND running primary research (interviews and surveys). For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro."
     },
     {
+      "name": "diagnosing-superpowers",
+      "category": "superpowers",
+      "path": "skills/diagnosing-superpowers",
+      "skill_md": "skills/diagnosing-superpowers/SKILL.md",
+      "files_count": 20,
+      "description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" — or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness."
+    },
+    {
       "name": "directory-submissions",
       "category": "marketing",
       "path": "skills/directory-submissions",
       "skill_md": "skills/directory-submissions/SKILL.md",
       "files_count": 5,
       "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI directories,\" \"MCP registry,\" \"publish my MCP server,\" \"awesome list,\" \"llms.txt directory,\" \"Claude plugin directory,\" \"agent directory,\" \"dofollow backlinks,\" \"launch directories,\" or \"directory tracker.\" Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo."
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "category": "superpowers",
+      "path": "skills/dispatching-parallel-agents",
+      "skill_md": "skills/dispatching-parallel-agents/SKILL.md",
+      "files_count": 1,
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
     },
     {
       "name": "emails",
@@ -330,6 +259,30 @@
       "skill_md": "skills/events/SKILL.md",
       "files_count": 6,
       "description": "When the user wants to plan, run, sponsor, speak at, or get pipeline from events — webinars, conferences, trade shows, meetups, dinners, workshops, virtual summits, or user conferences. Also use when the user mentions 'event marketing,' 'field marketing,' 'run a webinar,' 'webinar funnel,' 'show-up rate,' 'should we sponsor,' 'sponsor a conference,' 'trade show booth,' 'booth strategy,' 'event ROI,' 'badge scans,' 'event follow-up,' 'speaking slot,' 'CFP,' 'conference talk,' 'host a dinner,' 'user conference,' or 'virtual summit.' Covers all four roles: hosting, sponsoring/exhibiting, speaking, and attending. For product launch moments, see launch. For the partnership side of joint webinars, see co-marketing. For ongoing community programs, see community-marketing. For podcast appearances, see public-relations. For the email sequences themselves, see emails."
+    },
+    {
+      "name": "executing-plans",
+      "category": "superpowers",
+      "path": "skills/executing-plans",
+      "skill_md": "skills/executing-plans/SKILL.md",
+      "files_count": 3,
+      "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available"
+    },
+    {
+      "name": "find-your-level",
+      "category": "ai-engineering",
+      "path": "skills/find-your-level",
+      "skill_md": "skills/find-your-level/SKILL.md",
+      "files_count": 2,
+      "description": "Interactive quiz that maps your AI/ML knowledge to a starting point in the 542-lesson, 20-phase AI Engineering from Scratch curriculum. Trigger phrases: \"where should I start\", \"find my level\", \"what do I know\", \"which phase\", \"assess my knowledge\", \"placement test\", \"skip ahead"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "category": "superpowers",
+      "path": "skills/finishing-a-development-branch",
+      "skill_md": "skills/finishing-a-development-branch/SKILL.md",
+      "files_count": 1,
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work"
     },
     {
       "name": "free-tools",
@@ -356,6 +309,22 @@
       "description": "When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and measuring ROI. Also use when the user mentions 'influencer marketing,' 'creator partnerships,' 'sponsorships,' 'YouTube sponsorships,' 'podcast sponsorships,' 'newsletter sponsorship,' 'newsletter ad,' 'sponsor a newsletter,' 'brand ambassador,' 'ambassador program,' 'creator program,' 'UGC creators,' 'tech UGC,' 'UGC creator program,' 'creator network,' 'B2B influencers,' 'thought leader ads,' 'gifting,' 'product seeding,' 'whitelisting creator content,' 'Telegram channel ads,' 'buy a post in a Telegram channel,' 'how much to pay an influencer,' or 'FTC disclosure.' For affiliate/referral payout mechanics, see referrals. For community-led advocacy, see community-marketing. For turning creator content into paid ads, see ad-creative."
     },
     {
+      "name": "interview-prep",
+      "category": "ai-engineering",
+      "path": "skills/interview-prep",
+      "skill_md": "skills/interview-prep/SKILL.md",
+      "files_count": 8,
+      "description": "Mock interview coach for AI engineering roles, built on the interview bank of AI Engineering from Scratch. Asks one question or one incident scenario, stops, and waits for the learner's own answer. Then it grades the answer against the bank, asks follow-ups one at a time, sends each gap to the lessons and manual sections that teach it, and keeps an append-only record in INTERVIEW-LEARNING.md. Trigger phrases: \"interview prep\", \"mock interview\", \"ask me an interview question\", \"practise for my AI engineering interview\", \"run an incident scenario\", \"debugging round\", \"system design round\", \"inference engineer loop\", \"review my interview gaps\", \"how ready am I for the interview"
+    },
+    {
+      "name": "isometric-explainer",
+      "category": "ai-engineering",
+      "path": "skills/isometric-explainer",
+      "skill_md": "skills/isometric-explainer/SKILL.md",
+      "files_count": 16,
+      "description": "Builds an interactive isometric machine page. Each station of one invented machine stands for one step of a process. A pure, tested state model drives the motion, the readouts and the copy. The page has controls and a verification loop. Trigger phrases: \"isometric explainer\", \"machine explainer\", \"explain this as a machine\", \"interactive isometric figure\", \"explorable explainer\", \"show how it works inside\"."
+    },
+    {
       "name": "launch",
       "category": "marketing",
       "path": "skills/launch",
@@ -370,6 +339,46 @@
       "skill_md": "skills/lead-magnets/SKILL.md",
       "files_count": 7,
       "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" \"what should I give away for emails,\" \"course as a skill,\" or \"package our content as an agent skill.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tools. For writing the actual content, see copywriting. For the email sequence after capture, see emails."
+    },
+    {
+      "name": "learn",
+      "category": "ai-engineering",
+      "path": "skills/learn",
+      "skill_md": "skills/learn/SKILL.md",
+      "files_count": 1,
+      "description": "Interactive lesson tutor for the AI Engineering from Scratch curriculum. Reads LEARNING.md, fetches the next lesson, teaches it section by section in the terminal, quizzes at the end, and records progress. Works cloned or entirely over raw.githubusercontent.com — no setup required. Trigger phrases: \"next lesson\", \"teach me\", \"continue the course\", \"let's learn\", \"resume learning"
+    },
+    {
+      "name": "learn-agent-skills",
+      "category": "ai-engineering",
+      "path": "skills/learn-agent-skills",
+      "skill_md": "skills/learn-agent-skills/SKILL.md",
+      "files_count": 1,
+      "description": "Focused interactive tutor for the Agent Skills Engineering path in AI Engineering from Scratch. Start or resume this route when a learner wants to create, discover, invoke, secure, evaluate, package, or port Agent Skills. Teaches one lesson per invocation and records evidence in AGENT-SKILLS-LEARNING.md."
+    },
+    {
+      "name": "learn-mcp",
+      "category": "ai-engineering",
+      "path": "skills/learn-mcp",
+      "skill_md": "skills/learn-mcp/SKILL.md",
+      "files_count": 1,
+      "description": "Focused interactive tutor for the Model Context Protocol (MCP) path in AI Engineering from Scratch. Start or resume this route when a learner wants to build, secure, debug, verify, or operate MCP clients, servers, transports, gateways, registries, or conformance gates. Teaches one lesson per invocation and records wire evidence in MCP-LEARNING.md."
+    },
+    {
+      "name": "learn-reverse-engineering",
+      "category": "ai-engineering",
+      "path": "skills/learn-reverse-engineering",
+      "skill_md": "skills/learn-reverse-engineering/SKILL.md",
+      "files_count": 1,
+      "description": "Focused interactive tutor for the Reverse Engineering path in AI Engineering from Scratch. Start or resume this route when a learner wants to read a compiled program: file formats, disassembly, control flow, lifting, evidence, proof, calling conventions, compiler idioms, linking, types, debugging, bytecode, diffing, symbolic execution, and AI-assisted analysis. Teaches one lesson per invocation and records evidence in REVERSE-ENGINEERING-LEARNING.md."
+    },
+    {
+      "name": "lesson-screen",
+      "category": "ai-engineering",
+      "path": "skills/lesson-screen",
+      "skill_md": "skills/lesson-screen/SKILL.md",
+      "files_count": 10,
+      "description": "Opens a lesson screen in the browser next to the terminal while a course tutor teaches. It shows the lesson's registered figures, code traces with real values, and clickable predictions. It also builds a figure for the lesson on the fly with the course figure skills and any figure skill the host has installed: a blueprint, a mechanism, an isometric machine, or a 3D model. Clicks return to the tutor as events. Trigger phrases: \"open the lesson screen\", \"show me this visually\", \"show this in 3D\", \"draw the architecture\", \"visualize this lesson\", \"build a figure for this lesson\", \"lesson screen\"."
     },
     {
       "name": "link-building",
@@ -418,6 +427,22 @@
       "skill_md": "skills/marketing-psychology/SKILL.md",
       "files_count": 2,
       "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting."
+    },
+    {
+      "name": "mcpa-certification",
+      "category": "ai-engineering",
+      "path": "skills/mcpa-certification",
+      "skill_md": "skills/mcpa-certification/SKILL.md",
+      "files_count": 2,
+      "description": "AI-native tutor and onboarding workflow for the MCPA (Model Context Protocol Associate) certification in AI Engineering from Scratch. Use when a learner wants to prepare for the MCPA, resume their certification path, learn the next lesson interactively, run and verify practical labs, take the diagnostic or a full mock, or remediate weak exam domains from GitHub with Claude Code, Codex, ChatGPT, Cursor, or another agent."
+    },
+    {
+      "name": "motion-figure",
+      "category": "ai-engineering",
+      "path": "skills/motion-figure",
+      "skill_md": "skills/motion-figure/SKILL.md",
+      "files_count": 8,
+      "description": "Builds figures that move or respond to the reader, in three tiers: SMIL animations and slider widgets inside lessons, interactive mechanism figures that show the named parts of a real system with a computed verdict, and ordered dither bands in the course palette. Triggers: \"animated figure\", \"add a slider widget\", \"interactive figure\", \"show how this system works\", \"make this diagram move\", \"dither masthead\", \"mechanism figure\", \"figure fence\"."
     },
     {
       "name": "offers",
@@ -492,12 +517,38 @@
       "description": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'press,' 'press release,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'reporter request,' 'tech press,' 'TechCrunch,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' 'podcast prep,' 'podcast guest,' 'prep me for this podcast,' 'how do I get press,' 'PR crisis,' 'crisis communications,' 'respond to backlash,' 'we got hacked,' 'data breach statement,' or 'holding statement.' Also covers crisis response when something goes wrong. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email."
     },
     {
+      "name": "rea-video",
+      "category": "video-forensics",
+      "path": "skills/rea-video",
+      "skill_md": "skills/rea-video/SKILL.md",
+      "files_count": 11,
+      "license": "Apache-2.0",
+      "companion_cli_repo": "https://github.com/DaoHuuTrong2404/rea-video",
+      "description": "Reverse-engineer any video shot by shot (live action / AI / 3D / 2D / code UI / screen recording), extract subtitles, audio stems/BPM/SFX cues, and generate an actionable remake plan."
+    },
+    {
+      "name": "receiving-code-review",
+      "category": "superpowers",
+      "path": "skills/receiving-code-review",
+      "skill_md": "skills/receiving-code-review/SKILL.md",
+      "files_count": 1,
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation"
+    },
+    {
       "name": "referrals",
       "category": "marketing",
       "path": "skills/referrals",
       "skill_md": "skills/referrals/SKILL.md",
       "files_count": 9,
       "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' 'affiliate payout,' 'get more reviews,' 'G2 reviews,' 'review campaign,' or 'respond to a bad review.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch."
+    },
+    {
+      "name": "requesting-code-review",
+      "category": "superpowers",
+      "path": "skills/requesting-code-review",
+      "skill_md": "skills/requesting-code-review/SKILL.md",
+      "files_count": 2,
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements"
     },
     {
       "name": "reverse-engineer-marketing",
@@ -572,68 +623,12 @@
       "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, or Facebook, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' 'find people asking for,' 'carousel,' 'slide-by-slide,' or 'document post.' Use this for social content, repurposing, scheduling, video scripts, and listening. Posts avoid AI tells like 'it's not X, it's Y' reveals and broetry. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations."
     },
     {
-      "name": "video",
-      "category": "marketing",
-      "path": "skills/video",
-      "skill_md": "skills/video/SKILL.md",
-      "files_count": 6,
-      "description": "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'record a product demo,' 'feature demo video,' 'in-app demo,' 'video pipeline,' 'copy this edit,' 'match this video style,' 'reverse-engineer this video,' 'edit like this reference,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social. For paid video ad creative, see ad-creative."
-    },
-    {
-      "name": "brainstorming",
-      "category": "superpowers",
-      "path": "skills/brainstorming",
-      "skill_md": "skills/brainstorming/SKILL.md",
-      "files_count": 8,
-      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation)."
-    },
-    {
-      "name": "diagnosing-superpowers",
-      "category": "superpowers",
-      "path": "skills/diagnosing-superpowers",
-      "skill_md": "skills/diagnosing-superpowers/SKILL.md",
-      "files_count": 20,
-      "description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" — or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness."
-    },
-    {
-      "name": "dispatching-parallel-agents",
-      "category": "superpowers",
-      "path": "skills/dispatching-parallel-agents",
-      "skill_md": "skills/dispatching-parallel-agents/SKILL.md",
+      "name": "start-learning",
+      "category": "ai-engineering",
+      "path": "skills/start-learning",
+      "skill_md": "skills/start-learning/SKILL.md",
       "files_count": 1,
-      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
-    },
-    {
-      "name": "executing-plans",
-      "category": "superpowers",
-      "path": "skills/executing-plans",
-      "skill_md": "skills/executing-plans/SKILL.md",
-      "files_count": 3,
-      "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available"
-    },
-    {
-      "name": "finishing-a-development-branch",
-      "category": "superpowers",
-      "path": "skills/finishing-a-development-branch",
-      "skill_md": "skills/finishing-a-development-branch/SKILL.md",
-      "files_count": 1,
-      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work"
-    },
-    {
-      "name": "receiving-code-review",
-      "category": "superpowers",
-      "path": "skills/receiving-code-review",
-      "skill_md": "skills/receiving-code-review/SKILL.md",
-      "files_count": 1,
-      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation"
-    },
-    {
-      "name": "requesting-code-review",
-      "category": "superpowers",
-      "path": "skills/requesting-code-review",
-      "skill_md": "skills/requesting-code-review/SKILL.md",
-      "files_count": 2,
-      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements"
+      "description": "One-time onboarding for the AI Engineering from Scratch curriculum (542 lessons, 20 phases). Interviews the learner, runs the placement quiz, and writes LEARNING.md, a persistent study plan the learn skill drives. Trigger phrases: \"start learning\", \"set up the course\", \"begin the curriculum\", \"onboard me\", \"create my learning plan"
     },
     {
       "name": "subagent-driven-development",
@@ -682,6 +677,22 @@
       "skill_md": "skills/verification-before-completion/SKILL.md",
       "files_count": 1,
       "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always"
+    },
+    {
+      "name": "video",
+      "category": "marketing",
+      "path": "skills/video",
+      "skill_md": "skills/video/SKILL.md",
+      "files_count": 6,
+      "description": "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'record a product demo,' 'feature demo video,' 'in-app demo,' 'video pipeline,' 'copy this edit,' 'match this video style,' 'reverse-engineer this video,' 'edit like this reference,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social. For paid video ad creative, see ad-creative."
+    },
+    {
+      "name": "write-manual",
+      "category": "ai-engineering",
+      "path": "skills/write-manual",
+      "skill_md": "skills/write-manual/SKILL.md",
+      "files_count": 7,
+      "description": "Writes a long technical manual that explains one subject at one pinned version, from its purpose to each request and response. Every listing comes from an offline capture, every claim traces to a ranked source, and an audit must report TOTAL 0. Use it for \"write a manual\", \"write a 101 manual for <subject>\", \"manual.json\", \"add a manual section\", \"build a capture kit\", \"audit the manual\", or \"pin a spec version and document it\"."
     },
     {
       "name": "writing-plans",

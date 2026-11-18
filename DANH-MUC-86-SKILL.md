@@ -1,6 +1,6 @@
-# DANH MỤC CHI TIẾT 86 SKILL CHO AI AGENT
+# DANH MỤC CHI TIẾT 87 SKILL CHO AI AGENT
 
-Bộ sưu tập **86 skill chuẩn `SKILL.md`** do **Đào Hữu Trọng ([@DaoHuuTrong2404](https://github.com/DaoHuuTrong2404))** tổng hợp, chuẩn hóa cấu trúc và đóng gói cho **Claude Code, Antigravity, Cursor, Codex & Windsurf**: gồm **18 skill AI Engineering** + **53 skill Marketing & Video** + **15 skill Superpowers** (100% giấy phép mở MIT).
+Bộ sưu tập **87 skill chuẩn `SKILL.md`** (86 skill gốc + **`rea-video`** phân tích ngược video) do **Đào Hữu Trọng ([@DaoHuuTrong2404](https://github.com/DaoHuuTrong2404))** tổng hợp, chuẩn hóa cấu trúc và đóng gói cho **Claude Code, Antigravity, Cursor, Codex & Windsurf**: gồm **18 skill AI Engineering** + **53 skill Marketing & Video** + **15 skill Superpowers** (MIT) + **1 skill Video Forensics `rea-video`** (Apache-2.0).
 
 > Bấm trực tiếp vào tên bất kỳ skill nào trong bảng bên dưới để mở ngay file `SKILL.md` gốc của skill đó.
 
@@ -132,9 +132,20 @@ Nhóm này là "cách làm việc" — không phải kiến thức mà là kỷ 
 
 ---
 
+## Nhóm 4 — 1 skill Dịch ngược & Phân tích Video (`rea-video`, Apache-2.0)
+
+Phân tích cấu trúc từng shot của bất kỳ video mẫu nào (quay thật / AI tạo / 3D / 2D / code UI / quay màn hình), tách phụ đề & âm thanh (vocal, BGM, BPM, SFX) để xuất báo cáo và kế hoạch dựng lại (`Remake Plan`).
+
+| Skill | Về cái gì? | Dùng để làm gì? |
+|---|---|---|
+| **[rea-video](./skills/rea-video/SKILL.md)** | Bộ dịch ngược video cấp từng khung hình (kèm CLI Python tại [DaoHuuTrong2404/rea-video](https://github.com/DaoHuuTrong2404/rea-video)). | Đưa 1 video TikTok/Reels/Ads mẫu → xuất `report.html`, bảng shot, tách stem âm thanh, timeline phụ đề & công thức làm lại từng cảnh. |
+
+---
+
 ## Nguồn
 
 - **18 skill học AI:** repo `rohitg00/ai-engineering-from-scratch` (MIT) — lộ trình 542 bài, 20 giai đoạn.
 - **53 skill Marketing:** repo `coreyhaines31/marketingskills` (MIT).
 - **15 skill Superpowers:** repo `obra/superpowers` (MIT).
+- **1 skill Dịch ngược Video (`rea-video`):** repo `JuneYaooo/rea-video` (Apache-2.0, CLI kèm theo tại [DaoHuuTrong2404/rea-video](https://github.com/DaoHuuTrong2404/rea-video)).
 - Chuẩn hóa & đóng gói bởi [Đào Hữu Trọng (@DaoHuuTrong2404)](https://github.com/DaoHuuTrong2404) — xem chi tiết giấy phép gốc tại [LICENSE](./LICENSE) và [NOTICE.md](./NOTICE.md).

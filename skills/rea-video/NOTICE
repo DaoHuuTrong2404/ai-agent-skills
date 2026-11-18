@@ -1,0 +1,9 @@
+rea-video
+Copyright 2026 JuneYaooo
+
+Licensed under the Apache License, Version 2.0.
+
+---
+Modified & Packaged for Vietnamese AI Agent Distribution (2026-11-18):
+- Packager: Dao Huu Trong (@DaoHuuTrong2404) <https://github.com/DaoHuuTrong2404/rea-video>
+- Additions: Added Vietnamese guide (i18n/README_vi.md), Windows PowerShell installer (install.ps1), and updated repository links in .claude-plugin metadata.
