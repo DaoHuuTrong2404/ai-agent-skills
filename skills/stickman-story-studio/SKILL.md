@@ -1,17 +1,15 @@
 ---
 name: stickman-story-studio
-description: "Build and render full 1080p 2.5D stickman thriller & twist story videos (Cáo Hồi Hộp 2.05:1 letterbox + Thỏ Kì Quái / Sandiao styles) from a rough 2-5 sentence plot outline. Companion skill for https://github.com/DaoHuuTrong2404/stickman-story-studio."
+description: "Build and render full 1080p 2.5D dark-comic stickman thriller & twist story videos (Cáo Hồi Hộp 2.05:1 letterbox + Thỏ Kì Quái / Sandiao styles) from a rough 2-5 sentence plot outline with reference Style DNA cloning and zero-key script expansion. Companion skill for https://github.com/DaoHuuTrong2404/stickman-story-studio."
 ---
 
-# Stickman Story Studio v2.0
+# Stickman Story Studio v3.0
 
-Companion skill for **[DaoHuuTrong2404/stickman-story-studio](https://github.com/DaoHuuTrong2404/stickman-story-studio)** — turns a 2–5 sentence rough Vietnamese plot outline into a complete multi-minute `1080p@30fps` 2.5D stickman thriller/twist `.mp4` + `.vtt` (**Cáo Hồi Hộp v2.0** 2.05:1 letterbox + floating chat HUD + **Thỏ Kì Quái v1.0** modes).
+Companion skill for **[DaoHuuTrong2404/stickman-story-studio](https://github.com/DaoHuuTrong2404/stickman-story-studio)** — turns any reference style (`rea-video` DNA cloner) and a 2–5 sentence rough Vietnamese plot outline (with or without an API key) into a complete `1080p@30fps` 2.5D dark-comic stickman thriller/twist `.mp4` + `.vtt`.
 
 ## Capabilities
 
-- **Dual Visual Modes (`cao_hoi_hop` & `tho_ki_quai`):**
-  - `cao_hoi_hop` v2.0: Patterned midnight-navy `2.05:1` letterbox chrome, 3-plane parallax (`wood_fence`, `iron_cage`) + OTS blur, floating `180x180` avatar chat cards (`ots_phone_groupchat`, `floating_chat_scene`, `creature_enclosure`, `fence_two_shot`), dark-comic creatures (`tiger`, `gorilla`, `elephant`, `parrot`, `skull`, `hacker`, `boss`), `dread` brow shadow, `sparse_bald` hair, `hold_phone` pose, and `ALL-CAPS` bottom seam subtitles.
-  - `tho_ki_quai` v1.0: Full-bleed `16:9` workplace/campus twist story across 20 layouts (`ui_transfer_stamp`, `ecu_main`, `over_monitor`, `sneak_phone`, `prop_magnifying_item`, `red_alarm`, `stage_webcam_expose`, `karma_sprint`).
-- **6-Act Twist Script & AI Scene Art:** `POST /api/expand-story` (`gemini-4-hydrogen` on `/v1/interactions`) + optional `POST /api/generate-scene-art` (`gemini-nano-banana-2.1`) or custom background uploads.
-- **Multi-Voice Audio & Thriller Scoring:** `edge-tts` + `ffmpeg` formant-preserved pitch/tempo voices (`male_calm`, `male_schemer`, `male_boss`, `female_sharp`), 30fps RMS mouth envelopes, `A minor` thriller drone with suspense dropouts (`thriller_drone`) or noir pizzicato score + 14 Foley SFX normalized to `-15.0 LUFS / -1.2 dBTP`.
-- **Parallel 1080p Rendering:** Splits frames across `N` headless Playwright Chromium workers into `H.264 High yuv420p` (`+faststart`).
+- **Reference Style DNA Cloner (`POST /api/analyze-reference` / `cli.mjs analyze`):** Extracts cut rhythm, letterbox bar geometry & hex, luminance, LUFS, and 3×2 storyboard from a YouTube URL or local MP4.
+- **Zero-Key + Gemini 6-Act Expansion (`server/local_story_expander.mjs` / `POST /api/expand-story`):** Generates 8–54 scenes out-of-the-box without an API key (`0.5/1/3/5m`), or uses `gemini-4-hydrogen` (`/v1/interactions`) when a key is provided.
+- **2.5D Dark-Comic Engine (`public/engine.js` + `public/assets/dark_comic/`):** Pre-baked dark-comic backgrounds & creature portraits (`bg_zoo_enclosure.jpg`, `bg_haunted_corridor.jpg`, `avatar_elephant.png`, `avatar_tiger.png`, `avatar_gorilla.png`, `avatar_parrot.png`), patterned `2.05:1` letterbox, floating chat HUD, 3-plane parallax barriers, plus optional `gemini-nano-banana-2.1` (`POST /api/generate-scene-art`) or custom image uploads.
+- **Multi-Voice Audio, CLI & Vault Export:** `edge-tts` multi-character voices, 30fps lip-sync, `A minor` thriller drone (`thriller_drone`) or noir pizzicato, 14 SFX (`-15.0 LUFS`), parallel H.264 Playwright rendering, `cli.mjs`, and `POST /api/save-to-vault`.
